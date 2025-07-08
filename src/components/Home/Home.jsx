@@ -53,7 +53,7 @@ function Home() {
                             <Github size={24} />
                         </a>
                         <a
-                            href="https://linkedin.com/in/prasooncodes"
+                            href="https://www.linkedin.com/in/prasoon-mishra-ba6750262/"
                             target="_blank"
                             rel="noreferrer"
                             className="hover:text-orange-500 transition"
@@ -61,7 +61,7 @@ function Home() {
                             <Linkedin size={24} />
                         </a>
                         <a
-                            href="mailto:prasoon@example.com"
+                            href="mailto:prasoonmishra9936@gmail.com"
                             className="hover:text-orange-500 transition"
                         >
                             <Mail size={24} />
