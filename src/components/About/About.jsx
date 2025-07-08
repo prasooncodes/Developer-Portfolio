@@ -44,14 +44,16 @@ function About() {
 
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4 pt-4">
                         <a
-                            href="/Prasoon Mishra Resume (main) (4).pdf"
+                            href="/resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 bg-green-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-800 transition shadow"
+                            download
                         >
                             <Download size={20} />
                             Download Resume
                         </a>
+
                         <span className="text-sm text-gray-500">Let’s build something great together.</span>
                     </div>
                 </motion.div>

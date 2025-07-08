@@ -13,21 +13,29 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [darkMode, setDarkMode] = useState(false);
+
 
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/user/:id" element={<User />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div className={darkMode ? 'dark' : ''}>
+      <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 text-gray-900 dark:text-white">
+        <BrowserRouter>
+          {/* Pass darkMode state to Header */}
+          <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+          
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/user/:id" element={<User />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+          </Routes>
+
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </div>
   )
 }
 
