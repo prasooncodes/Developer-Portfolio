@@ -1,6 +1,7 @@
 import React from 'react';
+import mediOraIcon from '../../assets/icons/mediora.png';
 import harvestHubIcon from '../../assets/icons/harvest-hub.png';
-import expenseEaseIcon from '../../assets/icons/expense-ease.png';
+import quickMartIcon from '../../assets/icons/quick-mart.png';
 import metroIcon from '../../assets/icons/delhi-metro.png';
 import housePriceIcon from '../../assets/icons/house-price.png';
 import placeholderIcon from '../../assets/icons/placeholder.png'; // Placeholder image for future projects
@@ -8,34 +9,34 @@ import placeholderIcon from '../../assets/icons/placeholder.png'; // Placeholder
 function Projects() {
   const projects = [
     {
-      name: 'Harvest Hub',
-      icon: harvestHubIcon,
-      description: 'Crop recommendation platform using ML, built with MERN & Flask.',
-      link: 'https://github.com/prasooncodes/harvest-hub', // Update link if live
+      name: 'MediOra – AI-Powered Medical Chatbot',
+      icon: mediOraIcon,
+      description: 'End-to-end AI chatbot with RAG, Pinecone, HuggingFace, and Gemini API, deployed on Render/AWS.',
+      link: 'https://github.com/prasooncodes/mediora', // update if live link available
     },
     {
-      name: 'Expense Ease',
-      icon: expenseEaseIcon,
-      description: 'Track your spending with real-time analytics. Built using the MERN stack.',
-      link: 'https://github.com/prasooncodes/expense-ease',
+      name: 'HarvestHub – Crop Recommendation Platform',
+      icon: harvestHubIcon,
+      description: 'MERN + Flask crop recommendation platform with ML pipeline (XGBoost, Scikit-learn).',
+      link: 'https://github.com/prasooncodes/harvest-hub',
+    },
+    {
+      name: 'Quick Mart – Inventory Management System',
+      icon: quickMartIcon,
+      description: 'MERN stack system with real-time inventory, billing, and PDF invoice generation.',
+      link: 'https://github.com/prasooncodes/quickmart',
     },
     {
       name: 'Delhi Metro Navigation',
       icon: metroIcon,
-      description: 'C++ program using Dijkstra’s and BFS/DFS for metro route planning.',
+      description: 'C++ project using Dijkstra and BFS/DFS for metro route planning.',
       link: 'https://github.com/prasooncodes/delhi-metro-project',
     },
     {
       name: 'House Price Predictor',
       icon: housePriceIcon,
-      description: 'ML project predicting home prices using California housing dataset.',
+      description: 'Machine learning project predicting home prices using California dataset.',
       link: 'https://github.com/prasooncodes/house-price-predictor',
-    },
-    {
-      name: 'Coming Soon',
-      icon: placeholderIcon,
-      description: 'Stay tuned for another awesome project!',
-      link: '#',
     },
     {
       name: 'Coming Soon',
