@@ -4,7 +4,7 @@ import harvestHubIcon from '../../assets/icons/harvest-hub.png';
 import quickMartIcon from '../../assets/icons/quick-mart.png';
 import metroIcon from '../../assets/icons/delhi-metro.png';
 import housePriceIcon from '../../assets/icons/house-price.png';
-import placeholderIcon from '../../assets/icons/placeholder.png'; // Placeholder image for future projects
+import placeholderIcon from '../../assets/icons/placeholder.png'; 
 
 function Projects() {
   const projects = [
@@ -12,7 +12,7 @@ function Projects() {
       name: 'MediOra – AI-Powered Medical Chatbot',
       icon: mediOraIcon,
       description: 'End-to-end AI chatbot with RAG, Pinecone, HuggingFace, and Gemini API, deployed on Render/AWS.',
-      link: 'https://github.com/prasooncodes/mediora', // update if live link available
+      link: 'https://github.com/prasooncodes/mediora', 
     },
     {
       name: 'HarvestHub – Crop Recommendation Platform',
